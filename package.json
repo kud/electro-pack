@@ -1,0 +1,17 @@
+{
+  "name": "electro-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "cp env.sample.js env.js",
+    "start": "./index.js"
+  },
+  "author": "Erwann Mest <m@kud.io>",
+  "license": "ISC",
+  "dependencies": {
+    "change-case": "4.1.2",
+    "nativefier": "50.1.1"
+  }
+}
